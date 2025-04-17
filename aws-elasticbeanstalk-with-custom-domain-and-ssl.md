@@ -17,7 +17,7 @@
 9. Create a new **CNAME record** using the provided Name & Value.
 
 💡 **Note:**  
-If you’re using a subdomain (`api.yourdomain.com`), make sure to remove the root domain from the "Name" when adding the CNAME in your DNS settings. Just keep the part ACM gives you (not `api.yourdomain.com._xyz...`, only `_xyz...`).
+Make sure to remove the root domain from the "Name" when adding the CNAME in your DNS settings. Just keep the part ACM gives you (not `..._xyz.api.yourdomain.com.`, only `..._xyz.api`).
 
 10. Return to ACM and wait for the status to change from **Pending** to **Issued**.
 
